@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evaluación final Módulo1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
 
   <body>
-      <header class="header">
-        
+     
+      <header id="header" class="header">
         <section class="hero">
 
           <div class="header_link">
@@ -19,10 +22,8 @@
            
               <h1 class="Title-text">anonymous proxy</h1>
               <h4 class="Title-text2">In hac habitasse platea dictumst.</h4>
-         
-          <div class="button_scroll_down">
-            <a href="#sectionsecond"><img class="header__botton--image" src="./assets/images/ico-scroll-down.svg" alt="ir a section" title="ir a seccion 2"></a>
-  
+              <div class="button_scroll_down">
+              <a href="./index.html#blue_section"><img class="header__botton--image" src="./assets/images/ico-scroll-down.svg" alt="ir a section" title="ir a seccion 2"></a>
           </div>
           
       </section>
@@ -44,42 +45,50 @@
             </div>
           </div>
         </section>
-
-        <section class="blue_section">
-          <h2 class="Title_blue_section">
-            3 Reasons To Purchase
-          </h2>
-          <h3 class="Subtitle_reason">
-            Ut sed metus
-          </h3>
-          <p class="Text_reason">
-            Lorem ipsum dolor sit amet, consecteur.
-          </p>
-          <h3 class="Subtitle_reason">
-            Curabitur ac erat
-          </h3>
-          <p class="Text_reason">
-            Mauris mattis urna quis lorem molestie.
-          </p>
+      
+        <section id="blue_section" class="blue_section">
+          <h2 class="Title_blue_section">3 Reasons To Purchase</h2>
           
-          <h3 class="Subtitle_reason">Morbi dictum </h3>
-           <p class="Text_reason">
-            Aliquam in dolor et dolor tincidunt.</p>
-          
-
+          <div class="containergrid">
+            <div class="container_reason1">
+              <h3 class="Subtitle_reason"> Ut sed metus </h3>
+              <p class="Text_reason">
+                Lorem ipsum dolor sit amet, consecteur.
+              </p>
+            </div>
+             
+            
+             <div class="container_reason2">
+              <h3 class="Subtitle_reason">
+                Curabitur ac erat
+              </h3>
+              <p class="Text_reason">
+                Mauris mattis urna quis lorem molestie.
+              </p>
+            </div>
+            <div class="container_reason3">
+              
+              <h3 class="Subtitle_reason">Morbi dictum </h3>
+               <p class="Text_reason">
+                Aliquam in dolor et dolor tincidunt.</p>
+            </div>
+          </div>
             <div class="botton_main">
             <div class="text_botton">More reasons</div>
           </div>
+
+        </section>
         
     </main>
 
 
-      <footer class="footer">
+   <footer class="footer">
         <div class="footer__icon">
           <a href="#header">
           <img class="footer__image--icon" src="./assets/images/ico-arrow.svg" alt="ir al principio" title="ir a cabecera"></a>
         </div>
-       
+
+       <div class="footer__navcontainer">
         <nav class="articles">
           <ul class="list">
             <li class="footer__link">
@@ -113,11 +122,13 @@
               <a class="link__social" title="mastodon" href="https://adalab.es/" target="_blank">mastodon.social</a>
           </ul>
         </nav>
-        <div class="copyright">
+      
+
+          <div class="copyright">
           <small class="copyright__year">©2021</small>
           <small class="copyright__text">we <span class="heart">❤︎</span> components</small>
         </div>
-    
+      </div>
       </footer>
 
     </div>
